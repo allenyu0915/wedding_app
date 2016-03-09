@@ -1,4 +1,12 @@
 {
   "name": "wedding_app",
-  "app_id": "1e1609dd"
+  "app_id": "1e1609dd",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
